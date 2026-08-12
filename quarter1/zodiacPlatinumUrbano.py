@@ -1,3 +1,8 @@
+def chinese_zodiac(a, b):
+    c = 0
+    c = (b - 1900) % 12
+    print("Your Zodiac sign is:", a[c])
+
 X = int(input("Enter your birth year(must be above or equal to 1900): "))
 if X < 1900:
     print("Error: Age entered is below 1900,", X ,"is not a valid input.")
@@ -17,8 +22,3 @@ elif X >= 1900:
     'Pig (猪 / Zhū)']
 
     chinese_zodiac(zodiacs, X)
-
-def chinese_zodiac(a, b):
-    c = 0
-    c = b % 12
-    print("Your Zodiac sign is:", a[c])

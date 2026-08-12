@@ -92,5 +92,3 @@ END
 
 Step 5: Reflection/Explanation:
 Solving this scenario helped me improve my skills in both github and CT skills. It also taught me how to make a folder in github. Now decomposing canteen overcrowding into smaller sub-problems made a massive issue manageable. Because of CT skills we didn't do random guesses but we applied specific CT skills to each sub-problem Pattern Recognition to spot ordering delays, Abstraction to simplify the cashier's display, Decomposition to automate stock alerts, and Algorithm Design to control queue flow. Breaking down the system allowed us to create a fast, organized canteen experience with minimal wait times.
-     
-
