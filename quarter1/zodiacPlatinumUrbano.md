@@ -11,12 +11,7 @@ def chinese_zodiac(a, b):
     c = (b - 1900) % 12
     print("Your Zodiac sign is:", a[c])
 
-X = int(input("Enter your birth year(must be above or equal to 1900): "))
-if X < 1900:
-    print("Error: Age entered is below 1900,", X ,"is not a valid input.")
-elif X >= 1900:
-
-    zodiacs = ['Rat (鼠 / Shǔ)',
+ ['Rat (鼠 / Shǔ)',
     'Ox (牛 / Niú)',
     'Tiger (虎 / Hǔ)',
     'Rabbit (兔 / Tù)',
@@ -27,12 +22,26 @@ elif X >= 1900:
     'Monkey (猴 / Hóu)',
     'Rooster (鸡 / Jī)',
     'Dog (狗 / Gǒu)'
-    'Pig (猪/ Zhū)']
+    'Pig (猪 / Zhū)']
 
-    chinese_zodiac(zodiacs, X)
+
+X = input("Enter your birth year(must be above or equal to 1900): ")
+try:
+    year = int(X)
+    if year < 1900:
+        print("Error: Age entered is below 1900,", year, "is not a valid input.")
+    else:
+        chinese_zodiac(zodiacs, year)
+except ValueError:
+    print("Please enter an integer.")
+
+ 
+
+    
 
 ## Screenshots
-![Program Screenshot]<img width="1919" height="263" alt="image" src="https://github.com/user-attachments/assets/d6911fad-aab0-4755-9f82-47522b1f36e7" />
+![Program Screenshot]<img width="1319" height="361" alt="image" src="https://github.com/user-attachments/assets/463177aa-9d59-42f3-aa7f-10e69c50e504" />
 
 
-![Program Screenshot](https://drive.google.com/uc?export=view&id=1RfVTqdtSXoa9e00Cu89_RdD-NiFTiHHe)
+
+
