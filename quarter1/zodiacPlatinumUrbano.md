@@ -33,4 +33,4 @@ elif X >= 1900:
 
 ## Screenshots
 
-![Zodiac Program Output](https://drive.google.com/file/d/1RfVTqdtSXoa9e00Cu89_RdD-NiFTiHHe/view?usp=sharing)
+![Program Screenshot](https://drive.google.com/uc?export=view&id=1RfVTqdtSXoa9e00Cu89_RdD-NiFTiHHe)
