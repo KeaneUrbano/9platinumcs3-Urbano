@@ -33,4 +33,5 @@ elif X >= 1900:
 
 ## Screenshots
 
-![Zodiac Program Output](<Screenshot 2026-08-12 221639-1.png>)
+![Zodiac Program Output](<img width="1322" height="307" alt="image" src="https://github.com/user-attachments/assets/d6802e04-6418-4070-a94e-966bfa8e2e46" />
+)
