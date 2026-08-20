@@ -7,3 +7,4 @@
 # Quarter 1
 ## Activities 
 * [Computational Thinking Exercise](./quarter1/ctskillsPlatinumLN.md)
+* [Chinese Zodiac](./quarter1/zodiacPlatinumUrbano.md)
