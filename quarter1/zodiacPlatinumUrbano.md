@@ -1,3 +1,5 @@
+# Chinese Zodiac Classifier
+
 ## Requirements
 1. Ask the user to enter a year of birth.  The baseline year 1900.
 2. Validate user input that it should not be earlier than 1900.
