@@ -32,5 +32,7 @@ elif X >= 1900:
     chinese_zodiac(zodiacs, X)
 
 ## Screenshots
+![Program Screenshot]<img width="1919" height="263" alt="image" src="https://github.com/user-attachments/assets/d6911fad-aab0-4755-9f82-47522b1f36e7" />
+
 
 ![Program Screenshot](https://drive.google.com/uc?export=view&id=1RfVTqdtSXoa9e00Cu89_RdD-NiFTiHHe)
