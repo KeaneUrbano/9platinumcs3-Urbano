@@ -36,4 +36,3 @@ I believe
 
 ### Which method is the most useful? Why?
 
-nigger si zach
