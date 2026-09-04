@@ -27,12 +27,18 @@ T
 
 ## Class Diagram
 ![Class Diagram](images/classDiagram.png)
+
 ## Design Explanation
+I picked/created this design since it uses football elements and looks modern for my point of view.
+
 ### Why did you choose this class?
 I love playing football, I play it myself and I love the sport with all my heart.
 
 ### Which property is the most important? Why?
-I believe
+I believe it is Overall Rating since it gives you the basic notion of how good a player is. Without it you 
+don't know how relatively good your player is, some could say position is more important since it tells where and how you play but you can't do
+anything without Overall Rating.
 
 ### Which method is the most useful? Why?
+For me it is Pass, as you can keep the ball away from the opponents and keep the ball for a very long time, allowing you to control the tempo and the game itself.
 
