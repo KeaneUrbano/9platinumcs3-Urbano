@@ -26,19 +26,15 @@ T
 | Shoot | Takes a shot at enemy goal |
 
 ## Class Diagram
-![Class Diagram](quarter1/images/Screenshot%202026-09-04%20134106.png)
+<img width="1033" height="575" alt="image" src="https://github.com/user-attachments/assets/32b42c93-398a-4527-ab71-19a17fb8fe51" />
+
 
 ## Design Explanation
-I picked/created this design since it uses football elements and looks modern for my point of view.
-
 ### Why did you choose this class?
 I love playing football, I play it myself and I love the sport with all my heart.
 
 ### Which property is the most important? Why?
-I believe it is Overall Rating since it gives you the basic notion of how good a player is. Without it you 
-don't know how relatively good your player is, some could say position is more important since it tells where and how you play but you can't do
-anything without Overall Rating.
+I believe it is Overall Rating as it shows the attributes the player has, it dictates how good a player is at certain stats(ex. 99 speed, 99 drib etc.). Without Overall Rating a player would have default stats making him trash.
 
 ### Which method is the most useful? Why?
-For me it is Pass, as you can keep the ball away from the opponents and keep the ball for a very long time, allowing you to control the tempo and the game itself.
-
+For me I believe it is passing, as it helps teams control the tempo, keep possession, and place the ball where they want to place it leading to control. Passing is a form of both defending and attacking.
