@@ -26,7 +26,7 @@ T
 | Shoot | Takes a shot at enemy goal |
 
 ## Class Diagram
-![Class Diagram](images/classDiagram.png)
+![Class Diagram](quarter1/images/Screenshot 2026-09-04 134106.png)
 
 ## Design Explanation
 I picked/created this design since it uses football elements and looks modern for my point of view.
