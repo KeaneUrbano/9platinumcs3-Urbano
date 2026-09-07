@@ -21,7 +21,7 @@ Changes I made from my previous design:
 | height | Integer | Public (+) | Physical metric that does not affect critical program logic. |
 | playstyle | String | Public (+) | Aesthetic trait describing play style; safe to read publicly. |
 ## Updated UML Class Diagram
-![Class Diagram](UMLCLASSROOM.png)
+![Class Diagram](images/UMLCLASSROOM.png)
 ## Python Implementation
 
 [View Python Source](classImplementation.py)
