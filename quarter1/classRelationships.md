@@ -12,11 +12,12 @@ Description: These are professional establishments created for the purpose of pa
 than a few thousand dollars to billions of dollars. Some football clubs are businesses and others are passionate. 
 ## Association
 Relationship: Football Club manages Footballers.
-Explanation: Football Clubs employs Footballers to play for their club.
+Explanation: Football Clubs employs Footballers to play for their club. 
 ## Multiplicity
-
-Multiplicity:
+Multiplicity: 1....*
 Explanation:
+Most official competition rules require at least 11 players to participate. Without footballers a club effectively does not exist. 
+
 ## UML Class Relationship Diagram
 ![Class Relationship Diagram](images/classRelationshipDiagram.png)
 ## Python Implementation
