@@ -21,7 +21,7 @@ Most official competition rules require at least 11 players to participate. With
 ## UML Class Relationship Diagram
 ![Class Relationship Diagram](images/classRelationshipDiagram.png)
 ## Python Implementation
-[View Python Source](classRelationships.py)
+[View Python Source](classRelationship.py)
 ## Test Run
 ![Relationship Test Run](images/relationshipTestRun.png)
 ## Object Relationship Diagram
