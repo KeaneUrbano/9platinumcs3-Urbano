@@ -28,7 +28,19 @@ Most official competition rules require at least 11 players to participate. With
 ![Object Relationship Diagram](images/objectRelationshipDiagram.png)
 ## Analysis
 ### What is the association between your two classes?
+The association between FootballClub and Footballer is an Composition relationship. A FootballClub contains and manages Footballer objects as part of its team. The direction of the association allows the club to store and interact with multiple player objects.
+
 ### What multiplicity did you choose and why?
+I chose a multiplicity of **1 to 1..**. A football club must have at least 11 registered player to be considered a eligible team under official competition rules. Then, a single player in this relationship belongs to one club at a given time.
+
 ### How did you implement the relationship in Python?
+The relationship is applied through putting Football objects into FootballClub class methods like `add_player(player)`. Inside the FootballClub constructor a list attribute (self.squad) is activated to record all Footballer instances. 
+
 ### Why did you store an object reference instead of copying its data?
+Storing an object reference ensures data consistency and memory efficiency.
+
+
 ### If your relationship uses many, why is a list appropriate?
+A list is the best Python data structure for managing multiple player objects in a squad:
+
+Lists provide built-in methods (like .append(), .remove(), or list comprehensions) that make it easy to iterate over players to calculate team wide stats, filter by position, or display squad list.
