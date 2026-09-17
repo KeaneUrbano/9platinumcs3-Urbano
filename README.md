@@ -15,3 +15,5 @@
 * [OOPAct](./quarter1/classObjectUML.md)
 
 * [OOPAct Part 2](./quarter1/classAttributesMethods.md)
+
+* [OOPAct Part 2](./quarter1/classRelationships.md)
