@@ -7,7 +7,11 @@
 # Quarter 1
 ## Activities 
 * [Computational Thinking Exercise](./quarter1/ctskillsPlatinumUrbano.md)
+  
 * [Chinese Zodiac](./quarter1/zodiacPlatinumUrbano.md)
+
 * [ILA 3-1: Applying the Four Pillars of OOP](./quarter1/ila_oop.md)
+
 * [OOPAct](./quarter1/classObjectUML.md)
+
 * [OOPAct Part 2](./quarter1/classAttributesMethods.md)
