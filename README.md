@@ -16,4 +16,4 @@
 
 * [OOPAct Part 2](./quarter1/classAttributesMethods.md)
 
-* [OOPAct Part 2](./quarter1/classRelationships.md)
+* [OOPAct Part 3](./quarter1/classRelationships.md)
