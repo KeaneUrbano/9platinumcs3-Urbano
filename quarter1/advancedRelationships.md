@@ -17,8 +17,8 @@ Explanation: FootballClubs need Footballers to play for it while Footballers can
 
 ## Composition/Aggregation
 
-Relationship:
-Explanation:
+Relationship: Aggregation
+Explanation: A Footballer needs a FootballClub to play but doesn't necessarily need one to exist.
 
 ## Advanced UML Diagram
 ![Advanced UML](images/advancedClassDiagram.png)
