@@ -33,4 +33,4 @@ Explanation: A Footballer needs a FootballClub to play but doesn't necessarily n
 ![Objects](images/advancedObjectDiagram.png)
 
 ## Reflection
-Answers:
+Answers: Doing this activity helped me understand how OOP concepts work together in a real world scenario like this footballsystem. I learned how to distinguish different processes by mapping the classes out in both UML class and object diagrams. And using inheritance for Person and aggregation for FootballClub made the code much more organized and logically structured.
