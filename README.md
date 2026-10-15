@@ -4,7 +4,7 @@
 # January 6, 2012 Futsal
 
 ---
-# Quarter 1
+# Quarter 2
 ## Activities
 * [Encapsulation SG8](./quarter2/sg8_encapsulation.py)
 
