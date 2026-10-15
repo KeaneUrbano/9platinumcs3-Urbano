@@ -48,7 +48,7 @@ class Magazine(publication):
 
 
 publication2 = publication("Verity", "Colleen Hoover")
-book2 = Book(-200, "Hunger Games", "Suzanne Collins")
+book2 = Book(-200, "Hunger Games", "Suzanne Collins") # I used negative number to show that the function works.
 magazine2 = Magazine(12, "New York Times", "Michael Jack")
 
 print("Publication 1 Info:")
