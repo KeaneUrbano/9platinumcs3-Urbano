@@ -7,7 +7,7 @@
 # Quarter 2
 ## Activities
 * [Encapsulation SG8](./quarter2/sg8_encapsulation.py)
-
+* [Inheritance SG8](./quarter2/sg8_inheritance.py)
 
 ---
 # Quarter 1
