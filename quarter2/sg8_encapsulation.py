@@ -1,52 +1,41 @@
-class BankAccount: #This is the constructor of the class
-    def __init__(self, account_number, balance, account_holder):
-        self.__balance = balance 
-        self.__account_number = account_number  
-        self.__account_holder = account_holder  # These are the variables of the class
-        
+class BankAccount:
+    def __init__(self, account_number, balance):
+        self.__account_number = account_number
+        # This creates a new private attribute for account_number
+        self.set_balance(balance)
+        # We use this setter for balance to initialize balance attribute while checking it isnt negative.
 
-    def deposit(self, amount):
-        if amount > 0:
-            self.__balance += amount
-            print(f"Deposited: {amount}. New balance: {self.__balance}")
-        else:
-            print("Deposit amount must be positive.") # This is the deposti method where it allows user to deposit money into the account and it checks if the amount is positive or not. 
-            # If it is positive then it adds the amount to the balance and prints the new balance. If it is negative then it prints a message saying that the deposit amount must be positive.
+ 
+    def set_account_number(self, account_number): # We create a setter method here to update the balance. 
+        self.__account_number = account_number 
 
-    def withdraw(self, amount):
-        if 0 < amount <= self.__balance:
-            self.__balance -= amount
-            print(f"Withdrew: {amount}. New balance: {self.__balance}")
-        else:
-            print("Insufficient funds or invalid withdrawal amount.") # This is the withdraw method where the user can withdraw money and if there is not enough 
-            # money within the account then it will print a message saying there is not enough money.
-
-    def accountinfo(self): # This method is how we get the account information
-        return {
-            "Account Number": self.__account_number, 
-            "Account Holder": self.__account_holder,
-            "Balance": self.__balance
-        }
     
-    def get_balance(self):
-        return self.__balance # This method is how we get the balance
+    def set_balance(self, balance): # This defines a public setter method to check if balance is negative.
+        if balance < 0: # This checks if the balance provided is negative.
+            print("The balance must be not be a negative number.") # This prints if it is negative
+        else: 
+            self.__balance = float(balance) # If balance is not negative it converts balance into a float and stores it within self.__balance attribute. 
+       
+   # This is a getter for account_number attribute
+    @property # I put this here so that account_number despite being a method can be accessed as a attribute.
+    def account_number(self): # This defines the getter method.
+        return self.__account_number # This returns the value when account_number is used.
+
+    @property # It is the same as the first instance of @property, I use it so balance is treated as a attribute.
+    def balance(self):
+        return self.__balance # This returns the self.__balance attribute when requested.
 
 
+# Example usage for Bank Account class 
+print("Object of class BankAccount\n") # This is an example scenario using the bankaccount class.
+a1 = BankAccount(12345, 1000) # This creates the object.
 
-# This is Example Usage of bankaccount class
-a = int(input("Enter account number: "))
-b = input("Enter account holder name: ")
-c = int(input("Enter initial balance: "))
-d = int(input("Enter withdrawal amount: "))
-e = int(input("Enter deposit amount: "))
+print("Output:") # Both this(line 33 and 34) is just to make output look better.
+print("Account 1") 
+print(f"Account Number: {a1.account_number}") # This prints the first attribute(account_number)
+print(f"Balance: {a1.balance:.2f}\n") # This prints balance but formatted into having 2 decimal places.
 
-a1 = BankAccount(a, c, b)
-#update balance using deposit and withdraw methods.
-a1.deposit(e)
-print(a1.get_balance())  
-a1.withdraw(d)  
-print(a1.accountinfo()) # An hypothetical example where all methods are used.
-
-
-
-# Mamaaaaa
+print("Update balance to -100") # This follows sample output and tests what happens if money from balance is withdrawn.
+a1.set_balance(-100) # We use set_balance to update its value by -100
+print(f"Account Number: {a1.account_number}") # This prints the after result
+print(f"Balance: {a1.balance:.2f}") # The final balance.
