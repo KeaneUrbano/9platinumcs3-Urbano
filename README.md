@@ -8,6 +8,7 @@
 ## Activities
 * [Encapsulation SG8](./quarter2/sg8_encapsulation.py)
 * [Inheritance SG8](./quarter2/sg8_inheritance.py)
+* [Method Override SG10](./quarter2/sg10_methodoverride.py)
 
 ---
 # Quarter 1
