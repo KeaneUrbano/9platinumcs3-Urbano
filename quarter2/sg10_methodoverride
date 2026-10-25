@@ -24,10 +24,10 @@ class Elephant(Animal):
         super().__init__(name)
 # It is the same here for Lion it both inherits name attribute and
     def eat(self):
-        print(f"{self.name} grass and fruits")
+        print(f"{self.name} grass and fruits.")
 # overrides both eat and make_sound with its own special unique message like 'grass and fruits' and 'thrumpets'
     def make_sound(self):
-        print(f"{self.name} thrumpets")
+        print(f"{self.name} trumpets.")
 # Another thing is that it takes the same methods and attributtes but changes it.
 
 class Monkey(Animal):
@@ -35,11 +35,11 @@ class Monkey(Animal):
         super().__init__(name)
     # for the Monkey child class it follows the same processes as the prior cchild classes. It inherits name through super() and modifies the methods. 
     def eat(self):
-        print(f"{self.name} banana's")
+        print(f"{self.name} eats bananas.")
     # Thw method alkso goes through method override each having it's own unique messages.
     def make_sound(self):
-        print(f"{self.name} chatters")
-
+        print(f"{self.name} chatters.")
+            
 Simba = Lion("Simba")
 Dumbo = Elephant("Dumbo") # This initialize objects with the only attribute being name.  
 George = Monkey("George") # But it represent each child class with appropriate naming.
@@ -49,5 +49,5 @@ print(f"\n")
 for i in animals:
     i.make_sound() # This for loop is created so it prints all the actions like make_sound and eat without me typing everything.
     i.eat()
-    print(f"\n") 
+    print("-----") 
 
