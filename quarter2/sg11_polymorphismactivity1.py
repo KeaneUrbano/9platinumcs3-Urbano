@@ -31,25 +31,25 @@ class Senior_Patient(Patient): # This is a child class that inherits from Patien
         print(f"Original Bill: ₱{self.bill_amount:.2f}")        
         print(f"Final Bill: ₱{self.calculate_bill:.2f}")
 
-class PhilHealth(Patient): # PhilHealth
+class PhilHealth(Patient): # Just like in Senior Citizen class I did the same inheritance in PhilHealth class using super().init()
     def __init__(self, name, bill_amount):
-        super().__init__(name, bill_amount)
-    @property
+        super().__init__(name, bill_amount) # Same as senior citizen
+    @property # Same application as all other classes
     def calculate_bill(self):
-        return (self.bill_amount - (self.bill_amount * 0.15))
+        return (self.bill_amount - (self.bill_amount * 0.15)) # Only differences here is that PhilHealth rank patients only get 0.15% discount
     def display_patient_type(self):
         print(f"Patient Name: {self.name}")
-        print("Patient Type: PhilHealth Member")
+        print("Patient Type: PhilHealth Member") # From Regular Patient I changed to Philhealth member
         print(f"Original Bill: ₱{self.bill_amount:.2f}")        
         print(f"Final Bill: ₱{self.calculate_bill:.2f}")
 
-print("Hospital Billing System")
+print("Hospital Billing System") # Printing the title card/opening output
 print(f"-----------------------\n")
-
+# Setup of objects from Patient to PhilHealth class
 patient1 = Patient("Juan Dela Cruz", 15000)
 patient2 = Senior_Patient("Maria Santos", 15000)
 patient3 = PhilHealth("Pedro Reyes", 15000)
-
+# Output of all objects
 patient1.display_patient_type()
 patient2.display_patient_type()
 patient3.display_patient_type()
