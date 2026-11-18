@@ -10,6 +10,7 @@
 * [Inheritance SG8](./quarter2/sg8_inheritance.py)
 * [Zoo Management System SG10](./quarter2/sg10_methodoverride.py)
 * [Polymorphism SG11 Activity 1](./quarter2/sg11_polymorphismactivity1.py)
+* [Polymorphism SG11 Activity 2](./quarter2/sg11_polymorphismactivity2.md)
 
 ---
 # Quarter 1
